@@ -1,0 +1,13 @@
+@"
+# Rust
+engine/target/
+engine/pkg/
+
+# Node
+web/node_modules/
+web/dist/
+
+# Misc
+.DS_Store
+*.env
+"@ | Out-File .gitignore -Encoding UTF8
